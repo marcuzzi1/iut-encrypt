@@ -1,5 +1,5 @@
 {
-  "name": "mini-node-module",
+  "name": "qm-iut-encrypt",
   "version": "1.0.0",
   "description": "This is a mini module for testing in pw",
   "main": "index.js",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/marcuzzi1/iut-encrypt/issues"
   },
-  "homepage": "https://github.com/marcuzzi1/iut-encrypt#readme"
+  "homepage": "https://github.com/marcuzzi1/iut-encrypt#readme",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3"
+  }
 }
